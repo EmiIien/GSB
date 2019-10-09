@@ -56,6 +56,7 @@ CREATE TABLE IF NOT EXISTS `Visiteur` (
   `prenom` char(30)  DEFAULT NULL,
   `login` char(20) DEFAULT NULL,
   `mdp` char(20) DEFAULT NULL,
+  `poste` char(30)  DEFAULT NULL,
   `adresse` char(30) DEFAULT NULL,
   `cp` char(5) DEFAULT NULL,
   `ville` char(30) DEFAULT NULL,
